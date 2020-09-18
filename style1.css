@@ -53,7 +53,7 @@ header{
     }
       
 .topnav li a {
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 113px;
@@ -66,7 +66,6 @@ header{
 
     .content {
         background-color: #f1f1f1;
-        display: table;
         color: #000000;
         width: 100%;
         height: calc(100vh - 235px);
