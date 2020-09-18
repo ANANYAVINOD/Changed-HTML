@@ -1,4 +1,4 @@
-body{
+body {
 	padding: 0;
     margin: 0;
     font-family: arial, helvetica, sans-serif;
@@ -23,7 +23,7 @@ header{
 	margin-left: 30px;
 	margin-top: 20px; 
 }
-.search-wrap{
+.search-wrap {
 	float: right;
 	margin-right: 30px;
 	margin-top: 30px;
@@ -50,7 +50,7 @@ header{
     } 
 .topnav li {
      float: left;
-    }
+}
       
 .topnav li a {
     display: inline-block;
@@ -58,23 +58,24 @@ header{
     text-align: center;
     padding: 14px 113px;
     text-decoration: none;
-    }
+}
       
 .topnav li a:hover {
     background-color: #111;
-    }
+}
 
-    .content {
-        background-color: #f1f1f1;
-        color: #000000;
-        width: 100%;
-        height: calc(100vh - 235px);
-    }
+.content {
+    background-color: #f1f1f1;
+    color: #000000;
+    width: 100%;
+    height: calc(100vh - 235px);
+}
     
-    .left-sec {
-        width: 18%;
-        float: left;
-    }    
+.left-sec {
+    width: 18%;
+    float: left;
+}   
+
 .middle-sec {
     float: left;
     font-size: 14px;
@@ -129,7 +130,7 @@ img.content-img {
 	padding-left: 10px;
 } 
 .table-data table tr{
-		height: 30px;
+	height: 30px;
 }
 .table-data table td{
 	background-color:#95e1f9;
@@ -185,14 +186,13 @@ footer {
     width: 100%;
     overflow: hidden;
 }
-.Footer-block h3{
+.Footer-block h3 {
     text-transform: uppercase;
 }
 
-footer .Footer-block{
+footer .Footer-block {
     width: 33.3%;
     float: left;
-    text-align: justify;
 }
 
 footer .Footer-block img {
