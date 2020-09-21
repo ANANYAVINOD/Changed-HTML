@@ -21,7 +21,7 @@ body {
        
   .brand {
     font-weight: normal;
-    font-size: x-small;
+    font-size: xx-small;
     letter-spacing: 3px;
     float: left;
     display: block;
@@ -100,6 +100,7 @@ body {
     flex: 50%;
     padding: 15px;
     width: 100%;
+    opacity: 0.75;
   }
   
   .img.image1 {
@@ -114,8 +115,8 @@ body {
     flex: 50%; 
     padding: 15px;
     width: 100%;
-    font-size: 15px;
-    line-height: 2;
+    font-size: 18px;
+    line-height: 1.5;
   }
   
   .secondsec .right h2,
@@ -126,9 +127,14 @@ body {
   }
   
   .secondsec .right .para1 {
-    font-weight: bold;
+    font-weight: normal;
+    font-size: large;
   }
   
+  .secondsec .right .para2 {
+    color: gray;  
+  }
+
   .thirdsec {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -140,17 +146,29 @@ body {
   
   .thirdsec h2 {
     text-align: center;
+    font-size: 36px;
+    font-weight: normal;
   }
-  
+
+  .thirdsec h3{
+    font-size: 20px;  
+    font-weight: normal;
+  }
+
   .thirdsec h2,h3 {
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     font-family: "Playfair Display";
+  }
+
+  .thirdsec p {
+    color: #757575;
   }
   
   .thirdsec .left {
     flex: 50%;
     padding: 15px;
     width: 100%;
+    line-height: 1.5;
   }
   
   .thirdsec .right {
@@ -158,6 +176,17 @@ body {
     flex: 50%;
     padding: 15px;
     width: 100%;
+    opacity: 0.75;
+  }
+  
+  .fourthsec {
+    padding-top: 64px;
+    padding-bottom: 64px;  
+  }
+
+  .fourthsec h2 {
+    font-size: 36px;  
+    font-weight: normal;
   }
   
   .fourthsec h3 {
@@ -168,19 +197,37 @@ body {
     padding: 15px;
   }
   
-  input[type=text],input[type=number],input[type=date] {
+  input[type=text],input[type=number],input[type=datetime-local] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: none;
     border-bottom: 2px solid lightgray;
+    font: inherit;
+  }
+
+  input[type=submit] {
+    padding: 8px 16px;
+    text-transform: uppercase; 
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-weight: bold; 
+    background-color: lightgray;
+    border: none;
+    font: inherit; 
   }
   
   footer {
     background-color: #c7c7c7;
-    font-size: 12px;
+    font-size: 15px;
     width: 100%;
     text-align: center;
-    padding: 20px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px solid #eee; 
   }
