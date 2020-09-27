@@ -18,7 +18,7 @@ h1, h2, h3 {
   z-index: 1;
   background-color: white;
   box-shadow: 0px 0px 30px #8a8585;
-  padding: 8px 16px;
+  padding: 8px 32px;
 }
        
 .brand {
@@ -37,7 +37,7 @@ h1, h2, h3 {
 .nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-right: 32px;
   overflow: hidden;
   background-color: white;
 }
@@ -57,7 +57,7 @@ h1, h2, h3 {
 .nav li a:hover:not(.active) {
   background-color: #ddd;
 }
-  
+
 .nav li a.active {
   color: white;
   background-color: #4CAF50;
@@ -104,13 +104,6 @@ h1, h2, h3 {
   padding: 15px;
   width: 100%;
   opacity: 0.75;
-}
-  
-.img.main image {
-  padding-top: 60px;
-  padding-bottom: 20px;
-  width: 600px;
-  height: 750px;
 }
   
 .secondsec .right {
@@ -165,7 +158,6 @@ h1, h2, h3 {
 
 .thirdsec h2,h3 {
   letter-spacing: 5px;
-  font-family: "Playfair Display";
 }
   
 .thirdsec ul {
