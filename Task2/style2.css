@@ -1,0 +1,238 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Times New Roman', Georgia, serif;
+}
+  
+h1, h2, h3 {  
+  letter-spacing: 5px;
+  font-weight: normal;
+}
+  
+.container {
+  max-width: 1600px;
+  min-width: 500px;
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+  box-shadow: 0px 0px 30px #8a8585;
+  padding: 8px 32px;
+}
+       
+.brand {
+  font-weight: bold;
+  font-size: xx-small;
+  letter-spacing: 3px;
+  float: left;
+  display: block;
+  opacity: 0.75;
+} 
+  
+.nav {
+  float: right;
+}
+  
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-right: 32px;
+  overflow: hidden;
+  background-color: white;
+}
+  
+.nav li {
+  float: left;
+}
+  
+.nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  
+.nav li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.nav li a.active {
+  color: white;
+  background-color: #4CAF50;
+}
+  
+#imagetext {
+  font-size: xx-large;
+  display: bottom;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  opacity: 0.60;
+  letter-spacing: 4px;
+  padding-left: 45px; 
+  font-weight: lighter;
+}
+  
+.firstsec img {
+  max-width: 100%;
+  height: auto;
+}
+  
+.content {
+  max-width: 1100px;
+  display: block;
+  box-sizing: inherit;
+  padding: 64px;
+  margin: 0 auto;
+}
+  
+.secondsec {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  box-sizing: border-box;
+  display: flex;
+  border-bottom: 1px solid #eee;
+}
+  
+.secondsec .left {
+  vertical-align: top;
+  flex: 50%;
+  padding: 15px;
+  width: 100%;
+  opacity: 0.75;
+}
+  
+.secondsec .right {
+  display: inline-block;
+  flex: 50%; 
+  padding: 15px;
+  width: 100%;
+  font-size: 18px;
+  line-height: 1.5;
+}
+  
+.secondsec .right h2,
+.secondsec .right h3 {
+  text-align: center;
+  letter-spacing: 3px;
+}
+  
+.secondsec .right .catering1 {
+  font-weight: normal;
+  font-size: large;
+}
+  
+.secondsec .right .catering2 {
+  color: gray;  
+}
+
+.secondsec .right .highlight {
+  background-color: #f1f1f1;
+  padding: 2px 8px;
+}
+
+.thirdsec {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  box-sizing: border-box;
+  display: flex;
+  border-bottom: 1px solid #eee;
+}
+  
+.thirdsec h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.thirdsec h3 {
+  font-size: 20px;  
+  font-weight: normal;
+}
+
+.thirdsec h2,h3 {
+  letter-spacing: 5px;
+}
+  
+.thirdsec ul {
+  list-style-type: none;
+}
+
+.thirdsec li {
+  padding: 10px ;
+
+} 
+.thirdsec p {
+  color: #757575;
+}
+  
+.thirdsec .left {
+  flex: 50%;
+  padding: 15px;
+  width: 100%;
+  line-height: 1.5;
+}
+  
+.thirdsec .right {
+  width: 46%;
+  flex: 50%;
+  padding: 15px;
+  width: 100%;
+  opacity: 0.75;
+}
+  
+.fourthsec {
+  padding-top: 64px;
+  padding-bottom: 64px;  
+}
+
+.fourthsec h2 {
+  font-size: 36px;  
+  font-weight: normal;
+}
+  
+.fourthsec h3 {
+  color: #607D8B;
+}
+  
+.form {
+  padding: 15px;
+}
+  
+input[type=text],
+input[type=number],
+input[type=datetime-local] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid lightgray;
+  font: inherit;
+}
+
+input[type=submit] {
+  padding: 8px 16px;
+  text-transform: uppercase; 
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-weight: bold; 
+  background-color: #F1F1F1;
+  border: none;
+  font: inherit; 
+}
+  
+footer {
+  background-color: #F1F1F1;
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
